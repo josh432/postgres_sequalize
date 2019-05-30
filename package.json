@@ -1,0 +1,31 @@
+{
+  "name": "postgres_sequalize",
+  "version": "1.0.0",
+  "description": "simple gig finder for coders",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh432/postgres_sequalize.git"
+  },
+  "author": "Josh Silverman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josh432/postgres_sequalize/issues"
+  },
+  "homepage": "https://github.com/josh432/postgres_sequalize#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
